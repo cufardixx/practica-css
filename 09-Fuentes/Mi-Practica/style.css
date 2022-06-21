@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;500&display=swap');
+
+body{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 700px;
+    background-size: 100% 150px, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image:url(wave.svg), linear-gradient(43deg, #4158D0 0%, #a758ff 46%, #d939d1 100%);
+}
+
+
+.hero__container{
+    width: 90%;
+    height: 100%;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero__cta{
+    color: white;
+    width: 150px;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: #4158D0;
+    margin: 0 auto;
+    align-items: center;
+    display: inline-block;
+}
+
+.hero__title{
+    font-size: 45px;
+       font-weight: 700;
+}
+
+.hero__parrafo{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;    
+}
+
+.hero__picture{
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;    
+}
+
+.hero__img{
+    width: 100%;
+    display: block;   
+} 
+
